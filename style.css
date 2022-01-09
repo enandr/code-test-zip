@@ -1,0 +1,81 @@
+section.inputs {
+  margin-top: 50px;
+}
+
+section.inputs input,button{
+  width: 500px;
+  margin: 5px 0;
+  font-size: 1.5rem;
+  padding: .5rem 0 ;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+table {
+  margin-top: 2rem;
+}
+
+table tr{
+  height: 2rem;
+  padding: .5rem;
+}
+
+table td{
+  font-size: 1rem;
+  padding  : .5rem;
+}
+
+table th {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 1rem 2.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.406);
+}
+
+table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+table tbody td {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.365);
+  vertical-align: middle;
+  text-align: center;
+  padding: .5rem;
+}
+
+table tbody td img {
+  margin: auto 0;
+}
+
+.btn {
+  border-radius: 5px;
+  background-color: rgb(83, 189, 54);
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(72, 160, 48);
+}
+
+td.noDataRow {
+  text-align: center;
+}
+
+.alert {
+  background-color: #f8d7da;
+  width: 500px;
+  color: #842029;
+  padding: 1rem;
+  border-radius: .25rem;
+  margin-bottom: 1rem;
+}

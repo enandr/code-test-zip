@@ -8,8 +8,35 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	
+	<section class="container inputs">
+		<div id="alertBox"></div>
+		<input id="zipInput" type="text" placeholder="Enter A Zip Code" maxlength="5">
+		<button class="btn" id="searchBtn">Search</button>
+		<img id="stateImage" src="states/USA.svg" alt="">
+	</section>
+	<section>
+		<div class="container">
+			<h1>Search History</h1>
+			<table id="searchResults" class="table table-hover">
+				<thead>
+					<tr>
+						<th scope="col">ZIPCODE</th>
+						<th scope="col">COUNTRY</th>
+						<th scope="col">CITY</th>
+						<th scope="col">STATE</th>
+						<th scope="col">LATITUDE</th>
+						<th scope="col">LONGITUDE</th>
+						<th scope="col">STATE IMAGE</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr id="noDataRow">
+						<td colspan="7" class="noDataRow">RUN A SEARCH TO POPULATE THE HISTORY</td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+	</section>
 	<script src="script.js"></script>
 </body>
 </html>
-
